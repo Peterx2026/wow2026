@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人空间 - 记录与分享</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #050508;
+            color: #e8e8e8;
+            /* 保持原有的背景图风格，营造深邃感 */
+            background-image: url('https://wow.zamimg.com/images/wow/journal/ui-journal-bg-wotlk.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .overlay {
+            width: 100%;
+            min-height: 100vh;
+            background-color: rgba(0, 0, 0, 0.78);
+            padding: 80px 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 46px;
+            color: #ffd060;
+            letter-spacing: 4px;
+            margin-bottom: 24px;
+        }
+        .server-info {
+            max-width: 720px;
+            margin: 0 auto 50px;
+            font-size: 19px;
+            line-height: 2;
+            color: #dddddd;
+        }
+        .button-group a {
+            display: inline-block;
+            padding: 15px 34px;
+            margin: 12px;
+            background: #7c1c1c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: 0.25s;
+            border: 1px solid #b84040;
+        }
+        .button-group a:hover {
+            background: #aa2828;
+        }
+        .footer-text {
+            margin-top: 100px;
+            opacity: 0.55;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <!-- 标题：个人主页风格 -->
+        <h1>行者无疆</h1>
+        
+        <div class="server-info">
+            <p>热爱生活 | 专注技术分享 | 记录旅途点滴</p>
+            <br>
+            <p>当前状态：正在探索未知的领域</p>
+            <p>核心技能：前端开发、摄影后期、游戏设计</p>
+        </div>
+
+        <!-- 按钮：改为个人链接 -->
+        <div class="button-group">
+            <a href="#blog">阅读我的博客</a>
+            <a href="#gallery">查看摄影作品</a>
+            <a href="#contact">联系博主</a>
+        </div>
+
+        <div class="footer-text">
+            © 2026 个人主页. 保留所有权利.
+        </div>
+    </div>
+</body>
+</html>
